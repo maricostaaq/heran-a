@@ -1,0 +1,14 @@
+export class usuario {
+    id;
+    email;
+    senha;
+    constructor(id,email,senha){
+        this.id=id;
+        this.email=email;
+        this.senha=senha;
+
+    }
+    login(){
+        return this.email + " Está logado!"
+    }
+}
